@@ -1,0 +1,22 @@
+{
+  "name": "module1-capstone-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kidd254/Module1-Capstone-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kidd254/Module1-Capstone-Project/issues"
+  },
+  "homepage": "https://github.com/Kidd254/Module1-Capstone-Project#readme",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}

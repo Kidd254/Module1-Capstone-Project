@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding: 60px 30px;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: center;
+  background-image: url(images/jazz\ music\ love.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  background: transparent;
+}
+
+nav .menu-bar {
+  height: 35px;
+  width: 35px;
+  top: 20px;
+  left: 20px;
+  color: black;
+  font-weight: bolder;
+  background: transparent;
+  position: absolute;
+}
+
+.section1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-blend-mode: multiply;
+}
+
+.welcome {
+  flex: none;
+  order: 0;
+  font-size: 20px;
+  color: red;
+}
+
+.heading {
+  flex: none;
+  order: 1;
+  color: red;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Lato-Black', sans-serif;
+  text-transform: uppercase;
+}
+
+.desc-container {
+  padding: 20px;
+  box-sizing: border-box;
+  order: 2;
+  border: 10px solid white;
+}
+
+.description {
+  flex: none;
+  font-size: 16px;
+  font-family: 'Lato-Regular', sans-serif;
+  color: #5e5e5e;
+}
+
+.rad {
+  order: 3;
+}
+
+.date {
+  flex: none;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
+}
+
+.location {
+  flex: none;
+  font-size: 28px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+}
+
+.section2 {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.program-guide {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "Lato-Regular", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.program ul li {
+  list-style: none;
+}
+
+.order {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.opening {
+  order: 0;
+  display: flex;
+}
+
+.first-round {
+  order: 0;
+  display: flex;
+}
+
+.break {
+  order: 0;
+  display: flex;
+}
+
+.second-round {
+  order: 0;
+  display: flex;
+}
+
+.final-session {
+  order: 0;
+  display: flex;
+}
+
+.opening img {
+  order: 0;
+  border-radius: 50%;
+  width: 37.5%;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.first-round img {
+  order: 0;
+  border-radius: 50%;
+  width: 25%;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.break img {
+  order: 0;
+  border-radius: 50%;
+  width: 55%;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.second-round img {
+  order: 0;
+  border-radius: 50%;
+  width: 25%;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.final-session img {
+  order: 0;
+  border-radius: 50%;
+  width: 75%;
+  object-fit: contain;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.program {
+  order: 1;
+  color: red;
+  font-family: 'Lato-Bold', sans-serif;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.program1 {
+  order: 1;
+  color: red;
+  font-family: 'Lato-Bold', sans-serif;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.program-description {
+  order: 2;
+  color: gray;
+  flex: 50% 0 0;
+  font-family: 'Lato-Regular', sans-serif;
+}
+
+.see {
+  text-decoration: underline;
+  color: #fff;
+  font-family: 'Lato-Regular', sans-serif;
+}

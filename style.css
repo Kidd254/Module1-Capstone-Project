@@ -54,11 +54,18 @@ nav .menu-bar {
 .heading {
   flex: none;
   order: 1;
-  color: red;
   font-size: 40px;
-  font-weight: 500;
-  font-family: 'Lato-Black', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-transform: uppercase;
+  background-image: url(images/h1bg.jpg);
+  background-repeat: repeat;
+  background-position: -318px 56px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  color: red;
 }
 
 .desc-container {
@@ -160,7 +167,7 @@ nav .menu-bar {
 .opening img {
   order: 0;
   border-radius: 50%;
-  width: 25%;
+  width: 50%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -169,7 +176,7 @@ nav .menu-bar {
 .first-round img {
   order: 0;
   border-radius: 50%;
-  width: 25%;
+  width: 50%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -178,7 +185,7 @@ nav .menu-bar {
 .break img {
   order: 0;
   border-radius: 50%;
-  width: 25%;
+  width: 50%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -187,7 +194,7 @@ nav .menu-bar {
 .second-round img {
   order: 0;
   border-radius: 50%;
-  width: 25%;
+  width: 50%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -196,7 +203,7 @@ nav .menu-bar {
 .final-session img {
   order: 0;
   border-radius: 50%;
-  width: 37.5%;
+  width: 50%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -233,3 +240,4 @@ nav .menu-bar {
   color: #fff;
   font-family: 'Lato-Regular', sans-serif;
 }
+

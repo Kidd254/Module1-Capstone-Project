@@ -228,6 +228,7 @@ nav .menu-bar {
 }
 
 .see {
+  margin-top: 10px;
   text-decoration: underline;
   color: #fff;
   font-family: 'Lato-Regular', sans-serif;

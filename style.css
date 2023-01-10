@@ -84,13 +84,15 @@ nav .menu-bar {
   font-size: 35px;
   font-weight: 500;
   font-family: "Lato", sans-serif;
+  white-space: nowrap;
 }
 
 .location {
   flex: none;
   font-size: 28px;
   font-weight: 300;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato-Regular', sans-serif;
+  color: #5e5e5e;
 }
 
 .section2 {
@@ -105,6 +107,12 @@ nav .menu-bar {
   position: relative;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -152,7 +160,7 @@ nav .menu-bar {
 .opening img {
   order: 0;
   border-radius: 50%;
-  width: 37.5%;
+  width: 25%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -170,7 +178,7 @@ nav .menu-bar {
 .break img {
   order: 0;
   border-radius: 50%;
-  width: 55%;
+  width: 25%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;
@@ -188,7 +196,7 @@ nav .menu-bar {
 .final-session img {
   order: 0;
   border-radius: 50%;
-  width: 75%;
+  width: 37.5%;
   object-fit: contain;
   padding: 5px;
   box-sizing: border-box;

@@ -241,3 +241,20 @@ nav .menu-bar {
   font-family: 'Lato-Regular', sans-serif;
 }
 
+ .nav1,
+  .nav2 {
+    display: none;
+  } 
+
+
+@media screen and(min-width: 768px) {
+  .nav1 {
+    display: flex;
+    background-color: aqua;
+  }
+
+  .nav2 {
+    display: flex;
+    height: 35%;
+  }
+}

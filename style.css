@@ -95,7 +95,10 @@ nav {
   .section2 {
     padding: 20px;
     box-sizing: border-box;
-    background-color: black;
+    background: url('images/background\ main.jpg'), #282a34;
+    background-size: auto, auto;
+    background-size: contain;
+    background-blend-mode: multiply;
   }
   
   .program-guide {
@@ -132,26 +135,46 @@ nav {
   .opening {
     order: 0;
     display: flex;
+    align-items: center;
+    padding: 20px 6px;
+    border-radius: 2px;
+    list-style: none;
   }
   
   .first-round {
     order: 0;
     display: flex;
+    align-items: center;
+    padding: 20px 6px;
+    border-radius: 2px;
+    list-style: none;
   }
   
   .break {
     order: 0;
     display: flex;
+    align-items: center;
+    padding: 20px 6px;
+    border-radius: 2px;
+    list-style: none;
   }
   
   .second-round {
     order: 0;
     display: flex;
+    align-items: center;
+    padding: 20px 6px;
+    border-radius: 2px;
+    list-style: none;
   }
   
   .final-session {
     order: 0;
     display: flex;
+    align-items: center;
+    padding: 20px 6px;
+    border-radius: 2px;
+    list-style: none;
   }
   
   .opening img {
@@ -356,7 +379,13 @@ nav {
   .section2 {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    box-sizing: border-box;
+    align-content: center;
+    align-items: center;
+    background: url('images/background\ main.jpg'), #282a34;
+    background-size: auto, auto;
+    background-size: contain;
+    background-blend-mode: multiply;
   }
 
   .title-container {
@@ -367,8 +396,9 @@ nav {
 
   .title {
     color: #fff;
-    font-weight: 500;
+    font-weight: bolder;
     font-family: 'Lato-Bold', sans-serif;
+    padding-top: 14px;
   }
 
   .program-guide {
@@ -386,6 +416,12 @@ nav {
     order: 0;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 3px;
+    box-sizing: border-box;
+    min-height: 288px;
   }
 
   .opening img{
@@ -419,6 +455,12 @@ nav {
     order: 1;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 3px;
+    box-sizing: border-box;
+    min-height: 288px;
   }
 
   .first-round img{
@@ -434,6 +476,12 @@ nav {
     order: 2;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 3px;
+    box-sizing: border-box;
+    min-height: 288px;
   }
 
   .break img{
@@ -449,6 +497,12 @@ nav {
     order: 3;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 3px;
+    box-sizing: border-box;
+    min-height: 288px;
   }
 
   .second-round img{
@@ -464,6 +518,12 @@ nav {
     order: 4;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 3px;
+    box-sizing: border-box;
+    min-height: 288px;
   }
 
   .final-session img{

@@ -100,7 +100,7 @@ nav {
     background-size: contain;
     background-blend-mode: multiply;
   }
-  
+
   .program-guide {
     height: 100%;
     width: 100%;
@@ -109,29 +109,29 @@ nav {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .title-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .title {
     font-family: "Lato-Regular", sans-serif;
     color: white;
     margin-bottom: 10px;
   }
-  
+
   .program ul li {
     list-style: none;
   }
-  
+
   .order {
     list-style: none;
     display: flex;
     flex-direction: column;
   }
-  
+
   .opening {
     order: 0;
     display: flex;
@@ -140,7 +140,7 @@ nav {
     border-radius: 2px;
     list-style: none;
   }
-  
+
   .first-round {
     order: 0;
     display: flex;
@@ -149,7 +149,7 @@ nav {
     border-radius: 2px;
     list-style: none;
   }
-  
+
   .break {
     order: 0;
     display: flex;
@@ -158,7 +158,7 @@ nav {
     border-radius: 2px;
     list-style: none;
   }
-  
+
   .second-round {
     order: 0;
     display: flex;
@@ -167,7 +167,7 @@ nav {
     border-radius: 2px;
     list-style: none;
   }
-  
+
   .final-session {
     order: 0;
     display: flex;
@@ -176,7 +176,7 @@ nav {
     border-radius: 2px;
     list-style: none;
   }
-  
+
   .opening img {
     order: 0;
     border-radius: 50%;
@@ -185,7 +185,7 @@ nav {
     padding: 5px;
     box-sizing: border-box;
   }
-  
+
   .first-round img {
     order: 0;
     border-radius: 50%;
@@ -194,7 +194,7 @@ nav {
     padding: 5px;
     box-sizing: border-box;
   }
-  
+
   .break img {
     order: 0;
     border-radius: 50%;
@@ -203,7 +203,7 @@ nav {
     padding: 5px;
     box-sizing: border-box;
   }
-  
+
   .second-round img {
     order: 0;
     border-radius: 50%;
@@ -212,7 +212,7 @@ nav {
     padding: 5px;
     box-sizing: border-box;
   }
-  
+
   .final-session img {
     order: 0;
     border-radius: 50%;
@@ -221,7 +221,7 @@ nav {
     padding: 5px;
     box-sizing: border-box;
   }
-  
+
   .program {
     order: 1;
     color: red;
@@ -230,7 +230,7 @@ nav {
     align-items: center;
     list-style: none;
   }
-  
+
   .program1 {
     order: 1;
     color: red;
@@ -239,22 +239,22 @@ nav {
     align-items: center;
     list-style: none;
   }
-  
+
   .program-description {
     order: 2;
     color: gray;
     flex: 50% 0 0;
     font-family: 'Lato-Regular', sans-serif;
   }
-  
+
   .see {
     margin-top: 10px;
     text-decoration: underline;
     color: #fff;
     font-family: 'Lato-Regular', sans-serif;
   }
-  
- body nav .menu-bar {
+
+  body nav .menu-bar {
     height: 35px;
     width: 35px;
     top: 20px;
@@ -265,26 +265,25 @@ nav {
     position: absolute;
     display: block;
   }
-  
+
   .nav1,
   .nav2 {
-  display: none;
+    display: none;
   }
 }
 
-
 @media only screen and (min-width: 768px) {
- body nav .menu-bar {
+  body nav .menu-bar {
     display: none;
   }
 
-nav {
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  width: 100%;
-  background-image: #fff;
-}
+  nav {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 100%;
+    background: #fff;
+  }
 
   .nav1 {
     display: flex;
@@ -293,7 +292,7 @@ nav {
     background-color: lightgrey;
   }
 
-  .nav1 ul li{
+  .nav1 ul li {
     list-style: none;
     padding: 3% 8%;
     box-sizing: border-box;
@@ -302,15 +301,15 @@ nav {
     font-weight: 450;
   }
 
-.page {
-  white-space: nowrap;
-}
+  .page {
+    white-space: nowrap;
+  }
 
   .nav2 {
-  display: flex;
-  order: 1;
-  background-color: #fff;
-  justify-content: space-evenly;
+    display: flex;
+    order: 1;
+    background-color: #fff;
+    justify-content: space-evenly;
   }
 
   .nav1 ul {
@@ -324,12 +323,14 @@ nav {
     margin: 0 10%;
   }
 
-.nav2 .links {
-  order: 1;
-}
-  .nav2 .links ul{
+  .nav2 .links {
+    order: 1;
+  }
+
+  .nav2 .links ul {
     display: flex;
   }
+
   .nav2 .links ul li {
     order: 1;
     list-style: none;
@@ -349,7 +350,7 @@ nav {
     text-decoration: none;
     font-family: 'Lato-Bold', sans-serif;
     font-weight: bolder;
-    color:black;
+    color: black;
   }
 
   .nav2 .promotion {
@@ -364,12 +365,7 @@ nav {
     border: 3px solid red;
     justify-content: center;
     align-items: center;
-  }
-
-  .campaign {
-    color: red;
     font-weight: bolder;
-    margin: 3% 0;
   }
 
   .welcome {
@@ -424,7 +420,7 @@ nav {
     min-height: 288px;
   }
 
-  .opening img{
+  .opening img {
     order: 0;
     width: 50%;
     border-radius: 50%;
@@ -463,7 +459,7 @@ nav {
     min-height: 288px;
   }
 
-  .first-round img{
+  .first-round img {
     order: 0;
     width: 50%;
     border-radius: 50%;
@@ -484,7 +480,7 @@ nav {
     min-height: 288px;
   }
 
-  .break img{
+  .break img {
     order: 0;
     width: 50%;
     border-radius: 50%;
@@ -505,7 +501,7 @@ nav {
     min-height: 288px;
   }
 
-  .second-round img{
+  .second-round img {
     order: 0;
     width: 50%;
     border-radius: 50%;
@@ -526,7 +522,7 @@ nav {
     min-height: 288px;
   }
 
-  .final-session img{
+  .final-session img {
     order: 0;
     width: 50%;
     border-radius: 50%;
@@ -545,4 +541,3 @@ nav {
     color: #fff;
   }
 }
-

@@ -366,6 +366,7 @@ nav {
     justify-content: center;
     align-items: center;
     font-weight: bolder;
+    color: red;
   }
 
   .welcome {

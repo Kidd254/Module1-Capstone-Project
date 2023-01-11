@@ -91,6 +91,73 @@ nav {
   color: #5e5e5e;
 }
 
+
+.singers {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.singers-container {
+  flex-basis: 34%;
+}
+
+.singers-front {
+  background-image: url('img/speaker-sec.jpeg');
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+}
+
+.singer-background {
+  margin-left: 12px;
+  margin-top: -48px;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.singers-info {
+  flex-basis: 65%;
+}
+
+.singers-name {
+  margin: 5px 0;
+  font-weight: 900;
+}
+
+.singers-description {
+  margin: 0;
+  color: #ec5242;
+  font-size: 0.6em;
+  font-style: italic;
+}
+
+.breakthrough {
+  background-color: #d3d3d3;
+  border: none;
+  height: 1px;
+  width: 6%;
+  float: left;
+}
+
+.singers-achievement {
+  margin: 24px 0;
+  font-size: 0.6em;
+}
+
+.singers-card1.open {
+  display: block;
+}
+
+.singers-card2.open {
+  display: block;
+}
+
 @media only screen and (max-width: 767px) {
   .section2 {
     padding: 20px;
@@ -263,12 +330,74 @@ nav {
     font-weight: bolder;
     background: transparent;
     position: absolute;
+    cursor: pointer;
     display: block;
   }
 
   .nav1,
   .nav2 {
     display: none;
+  }
+
+  .menu-items {
+    position: absolute;
+    display: none;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
+  
+  .nav-links {
+    display: none;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  
+  .menu-items .nav-links li {
+    text-decoration: none;
+    list-style: none;
+    margin: 20px;
+  }
+  
+  .menu-items .nav-links li .list-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: rgb(10, 9, 9);
+    text-align: center;
+  }
+  
+  .nav-links.open-menu {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #e5e6ec;
+    mix-blend-mode: multiply;
+    overflow: hidden;
+    opacity: 0.8;
+    left: 0;
+    flex-direction: column;
+  }
+  
+  #btn {
+    color: red;
+    display: none;
+  }
+
+  .menu-icons {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -540,5 +669,34 @@ nav {
 
   .see {
     color: #fff;
+  }
+  
+  .menu-items {
+    display: none;
+  }
+
+  .singers-card {
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .singers-card1 {
+    display: block;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .singers-card2 {
+    display: block;
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+
+  .singers {
+    flex-basis: 50%;
+    font-size: 1.3em;
   }
 }

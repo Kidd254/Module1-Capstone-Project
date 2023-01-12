@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable max-len */
 const menuBox= document.getElementById('menu');
 const menuBar= document.getElementById('menu_bar');
@@ -5,10 +6,9 @@ const closingBtn = document.getElementById('btn');
 const menuItems = document.getElementsByClassName('list-link');
 const menuContainer = document.getElementsByClassName('menu-items');
 
-
-menuBar.addEventListener('click', ()=>{
-  menuBox.style.display = 'flex';
+menuBar.addEventListener('click', ()=> {
   menuBox.classList.toggle('open-menu');
+  menuBox.style.display = 'flex';
   menuBar.style.display= 'none';
   closingBtn.style.display='block';
   menuContainer[0].style.display='block';

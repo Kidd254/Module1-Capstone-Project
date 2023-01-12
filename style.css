@@ -46,15 +46,8 @@ nav {
   font-size: 40px;
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
-  background-image: url(images/h1bg.jpg);
-  background-repeat: repeat;
-  background-position: -318px 56px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-align: left;
-  font-weight: 900;
-  -webkit-font-smoothing: antialiased;
   color: red;
+  -webkit-font-smoothing: antialiased;
 }
 
 .desc-container {
@@ -90,7 +83,6 @@ nav {
   font-family: 'Lato-Regular', sans-serif;
   color: #5e5e5e;
 }
-
 
 .singers {
   margin: 0;
@@ -189,7 +181,6 @@ nav {
   flex-basis: 50%;
   font-size: 0.6em;
 }
-
 
 @media only screen and (max-width: 767px) {
   .section2 {
@@ -375,25 +366,30 @@ nav {
   .menu-items {
     position: absolute;
     display: none;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100vh;
     z-index: 1;
+    background-color: #5e5e5e;
   }
-  
+
   .nav-links {
+    position: relative;
     display: none;
     left: 0;
     top: 0;
     bottom: 0;
+    padding: 0;
+    margin: 0;
   }
-  
+
   .menu-items .nav-links li {
     text-decoration: none;
     list-style: none;
     margin: 20px;
   }
-  
+
   .menu-items .nav-links li .list-link {
     text-decoration: none;
     font-weight: 600;
@@ -402,7 +398,7 @@ nav {
     color: rgb(10, 9, 9);
     text-align: center;
   }
-  
+
   .nav-links.open-menu {
     width: 100%;
     height: 100vh;
@@ -415,13 +411,22 @@ nav {
     mix-blend-mode: multiply;
     overflow: hidden;
     opacity: 0.8;
+    top: 0;
     left: 0;
     flex-direction: column;
   }
-  
+
   #btn {
     color: red;
     display: none;
+    height: 35px;
+    width: 35px;
+    top: 20px;
+    left: 20px;
+    font-weight: bolder;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
   }
 
   .menu-icons {
@@ -436,6 +441,7 @@ nav {
 
 @media only screen and (min-width: 768px) {
   body nav .menu-bar {
+    height: 0;
     display: none;
   }
 
@@ -485,7 +491,7 @@ nav {
     margin: 0 10%;
   }
 
-  .logo img{
+  .logo img {
     width: 50%;
     border-radius: 50%;
     object-fit: contain;
@@ -712,9 +718,15 @@ nav {
   .see {
     color: #fff;
   }
-  
+
   .menu-items {
+    height: 0;
     display: none;
+  }
+
+  #btn {
+    display: none;
+    height: 0;
   }
 
   .singers-card {
@@ -777,5 +789,4 @@ nav {
     padding: 2px;
     box-sizing: border-box;
   }
-
 }

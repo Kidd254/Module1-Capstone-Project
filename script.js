@@ -24,6 +24,14 @@ for (let i=0; i<menuItems.length; i++) {
   };
 }
 
+closingBtn.addEventListener('click', ()=>{
+  menuBox.style.display = 'none';
+  menuBox.classList.toggle('open-menu');
+  menuBar.style.display= 'block';
+  closingBtn.style.display='none';
+  menuContainer[0].style.display='none';
+});
+
 const singerArray = [
   {
     id: 0,

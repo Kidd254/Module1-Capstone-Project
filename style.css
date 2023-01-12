@@ -158,6 +158,39 @@ nav {
   display: block;
 }
 
+.footer-card {
+  background-color: #272a31;
+}
+
+.footer-list {
+  color: #d3d3d3;
+}
+
+.tech {
+  display: flex;
+  margin: auto 16px;
+  justify-content: space-around;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-around;
+  margin: 16px 24px;
+  padding-bottom: 40px;
+}
+
+.footer-card1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.list {
+  flex-basis: 50%;
+  font-size: 0.6em;
+}
+
+
 @media only screen and (max-width: 767px) {
   .section2 {
     padding: 20px;
@@ -448,8 +481,17 @@ nav {
   .nav2 .logo {
     order: 0;
     height: 4%;
-    width: 4%;
+    width: 10%;
     margin: 0 10%;
+  }
+
+  .logo img{
+    width: 50%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 2px;
+    box-sizing: border-box;
+    background-color: #d3d3d3;
   }
 
   .nav2 .links {
@@ -699,4 +741,41 @@ nav {
     flex-basis: 50%;
     font-size: 1.3em;
   }
+
+  .footer {
+    display: block;
+  }
+
+  .footer-card .footer-title {
+    padding-bottom: 8px;
+  }
+
+  .partners {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+  }
+
+  .footer-card1 {
+    padding-left: 10%;
+    padding-right: 15%;
+  }
+
+  .list1 {
+    flex-basis: 15%;
+  }
+
+  .list2 {
+    flex-basis: 100%;
+    font-size: 0.7em;
+  }
+
+  .list1 img {
+    width: 50%;
+    border-radius: 50%;
+    object-fit: contain;
+    padding: 2px;
+    box-sizing: border-box;
+  }
+
 }

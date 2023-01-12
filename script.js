@@ -24,9 +24,6 @@ for (let i=0; i<menuItems.length; i++) {
   };
 }
 
-// =======================================
-//             Speakers
-// ========================================
 const singerArray = [
   {
     id: 0,
@@ -34,7 +31,7 @@ const singerArray = [
     alt: 'Winans',
     name: 'Bebe Winans',
     description: 'American gospel and R&B singer',
-    achievement: 'released nine albums, seven with his sister CeCe as BeBe & CeCe Winans and one with three Winans brothers ',
+    achievement: 'Released nine albums, seven with his sister CeCe as BeBe & CeCe Winans and one with three Winans brothers ',
   },
   {
     id: 1,
@@ -42,7 +39,7 @@ const singerArray = [
     alt: 'Whalum',
     name: 'Kirk Whalum',
     description: 'American R&B and smooth jazz saxophonist and songwriter',
-    achievement: 'toured with Whitney Houston for more than seven years and soloed in her single "I Will Always Love You", the best-selling single by a female artist in music history.',
+    achievement: 'Toured with Whitney Houston for more than seven years and soloed in her single "I Will Always Love You", the best-selling single by a female artist in music history.',
   },
 ];
 

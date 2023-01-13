@@ -203,14 +203,25 @@ nav {
 
   .title-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
   }
 
   .title {
     font-family: "Lato-Regular", sans-serif;
     color: white;
     margin-bottom: 10px;
+    order: 0;
+  }
+
+  .separator {
+    order: 1;
+    color: #ec5242;
+    width: 25%;
+    font-size: 10px;
   }
 
   .program ul li {
@@ -580,7 +591,17 @@ nav {
   .title-container {
     order: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+  }
+
+  .separator {
+    order: 1;
+    color: #ec5242;
+    width: 100%;
+    font-size: 10px;
   }
 
   .title {
@@ -588,6 +609,7 @@ nav {
     font-weight: bolder;
     font-family: 'Lato-Bold', sans-serif;
     padding-top: 14px;
+    box-sizing: border-box;
   }
 
   .program-guide {

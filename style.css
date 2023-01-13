@@ -772,6 +772,20 @@ nav {
     height: 0;
   }
 
+  .art {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+
+  .artists-heading {
+    font-family: 'Lato-Bold', sans-serif;
+    font-weight: bolder;
+    font-size: larger;
+  }
+
   .singers-card {
     display: flex;
     padding-left: 12%;

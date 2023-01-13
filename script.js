@@ -8,17 +8,17 @@ const menuBox = document.getElementById('menu');
 const menuBar = document.getElementById('menu_bar');
 const closingBtn = document.getElementById('btn');
 const menuItems = document.getElementsByClassName('list-link');
-const menuContainer = document.getElementsByClassName('menu-items');
+const menuContainer = document.getElementsByClassName('nav2');
 
 menuBar.addEventListener('click', () => {
-  menuBox.classList.toggle('open-menu');
   menuBox.style.display = 'flex';
+  menuBox.classList.toggle('open-menu');
   menuBar.style.display = 'none';
   closingBtn.style.display = 'block';
   menuContainer[0].style.display = 'block';
 });
 
-for (let i = 0; i < menuItems.length; i += 1) {
+for (let i = 0; i < menuItems.length; i++) {
   menuItems[i].onclick = function () {
     menuBox.style.display = 'none';
     menuBox.classList.toggle('open-menu');

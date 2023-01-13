@@ -472,7 +472,7 @@ nav {
     display: flex;
     order: 0;
     padding-left: 65%;
-    background-color: lightgrey;
+    background-color: rgb(89, 86, 86);
   }
 
   .nav1 ul li {

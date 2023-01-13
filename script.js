@@ -1,4 +1,8 @@
 /* eslint-disable linebreak-style */
+/* eslint-disable func-names */
+// eslint-disable-next-line linebreak-style
+/* eslint-disable no-plusplus */
+/* eslint-disable linebreak-style */
 /* eslint-disable max-len */
 const menuBox = document.getElementById('menu');
 const menuBar = document.getElementById('menu_bar');
@@ -14,8 +18,8 @@ menuBar.addEventListener('click', () => {
   menuContainer[0].style.display = 'block';
 });
 
-for (let i = 0; i < menuItems.length; i++) {
-  menuItems[i].onclick = function() {
+for (let i = 0; i < menuItems.length; i += 1) {
+  menuItems[i].onclick = function () {
     menuBox.style.display = 'none';
     menuBox.classList.toggle('open-menu');
     closingBtn.style.display = 'none';

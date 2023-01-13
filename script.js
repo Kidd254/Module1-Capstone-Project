@@ -1,36 +1,36 @@
 /* eslint-disable linebreak-style */
 /* eslint-disable max-len */
-const menuBox = document.getElementById('menu');
-const menuBar = document.getElementById('menu_bar');
-const closingBtn = document.getElementById('btn');
-const menuItems = document.getElementsByClassName('list-link');
-const menuContainer = document.getElementsByClassName('menu-items');
+const menuBox = document.getElementById('menu')
+const menuBar = document.getElementById('menu_bar')
+const closingBtn = document.getElementById('btn')
+const menuItems = document.getElementsByClassName('list-link')
+const menuContainer = document.getElementsByClassName('menu-items')
 
 menuBar.addEventListener('click', () => {
-  menuBox.classList.toggle('open-menu');
-  menuBox.style.display = 'flex';
-  menuBar.style.display = 'none';
-  closingBtn.style.display = 'block';
-  menuContainer[0].style.display = 'block';
-});
+  menuBox.classList.toggle('open-menu')
+  menuBox.style.display = 'flex'
+  menuBar.style.display = 'none'
+  closingBtn.style.display = 'block'
+  menuContainer[0].style.display = 'block'
+})
 
 for (let i = 0; i < menuItems.length; i++) {
-  menuItems[i].onclick = function() {
-    menuBox.style.display = 'none';
-    menuBox.classList.toggle('open-menu');
-    closingBtn.style.display = 'none';
-    menuBar.style.display = 'block';
-    menuContainer[0].style.display = 'none';
-  };
+  menuItems[i].onclick = function () {
+    menuBox.style.display = 'none'
+    menuBox.classList.toggle('open-menu')
+    closingBtn.style.display = 'none'
+    menuBar.style.display = 'block'
+    menuContainer[0].style.display = 'none'
+  }
 }
 
 closingBtn.addEventListener('click', () => {
-  menuBox.style.display = 'none';
-  menuBox.classList.toggle('open-menu');
-  menuBar.style.display = 'block';
-  closingBtn.style.display = 'none';
-  menuContainer[0].style.display = 'none';
-});
+  menuBox.style.display = 'none'
+  menuBox.classList.toggle('open-menu')
+  menuBar.style.display = 'block'
+  closingBtn.style.display = 'none'
+  menuContainer[0].style.display = 'none'
+})
 
 const singerArray = [
   {
@@ -39,7 +39,7 @@ const singerArray = [
     alt: 'Winans',
     name: 'Bebe Winans',
     description: 'American gospel and R&B singer',
-    achievement: 'Released nine albums, seven with his sister CeCe as BeBe & CeCe Winans and one with three Winans brothers ',
+    achievement: 'Released nine albums, seven with his sister CeCe as BeBe & CeCe Winans and one with three Winans brothers '
   },
   {
     id: 1,
@@ -47,13 +47,13 @@ const singerArray = [
     alt: 'Whalum',
     name: 'Kirk Whalum',
     description: 'American R&B and smooth jazz saxophonist and songwriter',
-    achievement: 'Toured with Whitney Houston for more than seven years and soloed in her single "I Will Always Love You", the best-selling single by a female artist in music history.',
-  },
-];
+    achievement: 'Toured with Whitney Houston for more than seven years and soloed in her single "I Will Always Love You", the best-selling single by a female artist in music history.'
+  }
+]
 
-const singersCard = document.querySelector('.singers-card');
+const singersCard = document.querySelector('.singers-card')
 
-let content1 = '';
+let content1 = ''
 
 singerArray.forEach((singer) => {
   content1 += `
@@ -70,10 +70,10 @@ singerArray.forEach((singer) => {
             <hr class="breakthrough">
             <p class="singers-achievement">${singer.achievement}</p>
         </div>
-    </section>`;
-});
+    </section>`
+})
 
-singersCard.innerHTML = content1;
+singersCard.innerHTML = content1
 
 const secondSingersArray = [
   {
@@ -82,7 +82,7 @@ const secondSingersArray = [
     alt: 'Escobar',
     name: 'Damien Escobar',
     description: 'Damien Esco, is an American violinist',
-    achievement: 'Known for his crossover violin musical style consists of a mix of classical, jazz, pop, R&B, and hip hop',
+    achievement: 'Known for his crossover violin musical style consists of a mix of classical, jazz, pop, R&B, and hip hop'
   },
   {
     id: 1,
@@ -90,13 +90,13 @@ const secondSingersArray = [
     alt: 'Michele',
     name: 'Chrisette Michele',
     description: 'An American R&B and soul singer',
-    achievement: 'won a Grammy Award for Best Urban/Alternative Performance in 2009 for her song, "Be Ok"',
-  },
-];
+    achievement: 'won a Grammy Award for Best Urban/Alternative Performance in 2009 for her song, "Be Ok"'
+  }
+]
 
-const singersCard2 = document.querySelector('.singers-card1');
+const singersCard2 = document.querySelector('.singers-card1')
 
-let content2 = '';
+let content2 = ''
 
 secondSingersArray.forEach((singer) => {
   content2 += `
@@ -113,10 +113,10 @@ secondSingersArray.forEach((singer) => {
             <hr class="breakthrough">
             <p class="singers-achievement">${singer.achievement}</p>
         </div>
-    </section>`;
-});
+    </section>`
+})
 
-singersCard2.innerHTML = content2;
+singersCard2.innerHTML = content2
 
 const thirdSingersArray = [
   {
@@ -125,7 +125,7 @@ const thirdSingersArray = [
     alt: 'Eric',
     name: 'Eric Benet',
     description: ' American R&B/neo soul singer-songwriter and actor',
-    achievement: 'Benet has received a total of four Grammy nominations to date for his musical work.',
+    achievement: 'Benet has received a total of four Grammy nominations to date for his musical work.'
   },
   {
     id: 1,
@@ -133,13 +133,13 @@ const thirdSingersArray = [
     alt: 'Regina',
     name: 'Regina Belle',
     description: 'American singer-songwriter who started her career in the mid-1980s',
-    achievement: 'Known for her singles "Baby Come to Me" and "Make It Like It Was", Belle\'s most notable for two hit duets',
-  },
-];
+    achievement: 'Known for her singles "Baby Come to Me" and "Make It Like It Was", Belle\'s most notable for two hit duets'
+  }
+]
 
-const sectionsCard3 = document.querySelector('.singers-card2');
+const sectionsCard3 = document.querySelector('.singers-card2')
 
-let content3 = '';
+let content3 = ''
 
 thirdSingersArray.forEach((singer) => {
   content3 += `
@@ -156,7 +156,7 @@ thirdSingersArray.forEach((singer) => {
               <hr class="breakthrough">
               <p class="singers-achievement">${singer.achievement}</p>
           </div>
-      </section>`;
-});
+      </section>`
+})
 
-sectionsCard3.innerHTML = content3;
+sectionsCard3.innerHTML = content3

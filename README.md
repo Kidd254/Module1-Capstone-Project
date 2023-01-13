@@ -35,7 +35,7 @@ This project is built using pure Html and css
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [a link to the online version]()
+- [a link to the online version](https://kidd254.github.io/Module1-Capstone-Project/)
 
 - [a link to a presentation about this project]()
 

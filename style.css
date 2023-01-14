@@ -791,7 +791,6 @@ nav {
     width: auto;
     order: 1;
     display: flex;
-    padding-left: auto;
   }
 
   .nav2 .promotion .campaign {

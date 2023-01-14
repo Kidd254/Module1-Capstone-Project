@@ -197,18 +197,40 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  order: 0;
+}
+
+.rad1 {
+  display: flex;
+  flex-direction: column;
+  order: 3;
+  padding: 3% 0;
+  box-sizing: border-box;
+}
+
+.reach-out-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  order: 0;
 }
 
 .reach-out {
-  order: 0;
   flex: none;
   font-size: 16px;
   font-family: 'Lato-Regular', sans-serif;
   color: #070707;
 }
 
-.email {
+.email.container {
   order: 1;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.email {
+  order: 0;
   flex: none;
   font-size: 16px;
   font-family: 'Lato-Regular', sans-serif;
@@ -216,6 +238,7 @@ nav {
   text-decoration: underline;
   text-decoration-thickness: calc(20%);
   font-weight: bolder;
+  padding-left: 25%;
 }
 
 .history {
@@ -228,14 +251,23 @@ nav {
 
 .history-heading {
   order: 0;
+  font-family: 'Lato-Bold', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #060606;
 }
 
 .history-description {
   order: 1;
+  padding: 3% 0;
+  font-family: 'Lato-Regular', sans-serif;
+  font-size: 16px;
+  color: #070707;
 }
 
 .look {
   order: 5;
+  display: flex;
 }
 
 .beau {
@@ -252,6 +284,14 @@ nav {
 .past-container {
   order: 5;
   display: flex;
+}
+
+.past-memories {
+  font-family: 'Lato-Bold', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #060606;
+  order: 0;
 }
 
 .year-2021 {
@@ -277,28 +317,39 @@ nav {
 }
 
 .home-contents {
-  margin-top: 0;
+  margin-top: 6%;
   display: flex;
   flex-direction: row;
-  float: right;
+  justify-content: flex-end;
   font-size: 0.7em;
   padding-top: 1.5%;
-  padding-right: 10%;
+  padding-right: 5%;
+  margin-right: 3%;
+  box-sizing: border-box;
+  order: 0;
+  width: 100%;
 }
 
 .home {
-  order: 0;
-  height: 350px;
-  width: 35px;
   color: black;
-  margin-right: 25px;
 }
 
 .arrow {
-  order: 1;
-  height: 350px;
-  width: 35px;
-  color: black;
+  color: red;
+}
+
+.about1 {
+  color: #060606;
+  font-size: 16px;
+}
+
+.annual {
+  color: #060606;
+  font-size: 12px;
+}
+
+.arrow2 {
+  color: red;
 }
 
 .figcaption {
@@ -473,12 +524,16 @@ nav {
     font-family: 'Lato-Regular', sans-serif;
   }
 
+  .see-it {
+    order: 2;
+    margin: 3% 0 3% 0;
+    box-sizing: border-box;
+  }
+
   .see {
-    margin-top: 10px;
     text-decoration: underline;
     color: #fff;
     font-family: 'Lato-Regular', sans-serif;
-    order: 2;
   }
 
   .menu-bar {
@@ -582,6 +637,22 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+  }
+
+  .separator2 {
+    order: 1;
+    color: #ec5242;
+    width: 45%;
+    font-size: 10px;
   }
 }
 
@@ -876,10 +947,19 @@ nav {
     justify-content: center;
   }
 
+  .see-it {
+    order: 2;
+    padding: 3% 0 3% 0;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+  }
+
   .see {
+    text-decoration: underline;
     color: #fff;
-    padding-left: 40%;
-    order: 1;
+    font-family: 'Lato-Regular', sans-serif;
   }
 
   .menu-items {
@@ -898,10 +978,18 @@ nav {
 
   .art {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px 0;
     box-sizing: border-box;
+  }
+
+  .separator2 {
+    order: 1;
+    color: #ec5242;
+    width: 10%;
+    font-size: 10px;
   }
 
   .artists-heading {

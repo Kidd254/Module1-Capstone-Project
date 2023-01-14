@@ -15,6 +15,14 @@ header {
   background-size: cover;
 }
 
+.head-about {
+  padding: 60px 30px;
+  box-sizing: border-box;
+  position: relative;
+  justify-content: center;
+  background-color: #fff;
+}
+
 nav {
   display: flex;
   height: 80px;

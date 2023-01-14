@@ -152,12 +152,26 @@ nav {
   display: block;
 }
 
+.f-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-title {
+  color:#fff;
+  font-family: 'Lato-Bold', sans-serif;
+  font-weight: bolder;
+}
+
 .footer-card {
   background-color: #272a31;
 }
 
 .footer-list {
   color: #d3d3d3;
+  font-family: 'Lato-Bold', sans-serif;
+  font-weight: bold;
 }
 
 .partners {

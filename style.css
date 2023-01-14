@@ -270,17 +270,6 @@ nav {
   display: flex;
 }
 
-.beau {
-  color: #ede7e7;
-  text-align: center;
-  height: 25vh;
-  font-size: 0.8em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .past-container {
   order: 5;
   display: flex;

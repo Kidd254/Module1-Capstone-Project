@@ -711,7 +711,7 @@ nav {
   .nav2 .logo {
     order: 0;
     height: 100%;
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -734,15 +734,14 @@ nav {
     width: 50%;
     order: 1;
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
 
   .nav2 .links {
     order: 0;
     display: flex;
-    padding-left: 15%;
     justify-content: flex-start;
-    width: 50%;
+    width: auto;
   }
 
   .nav2 .links ul {
@@ -789,19 +788,20 @@ nav {
 
   .nav2 .promotion {
     height: 50%;
-    width: 40%;
+    width: auto;
     order: 1;
-    padding-left: 5%;
     display: flex;
+    padding-left: auto;
   }
 
   .nav2 .promotion .campaign {
     border: 3px solid red;
     font-weight: bolder;
     color: red;
-    width: 60%;
+    width: auto;
     padding: 3% 0 3% 5%;
     order: 0;
+    white-space: nowrap;
   }
 
   .welcome {

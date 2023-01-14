@@ -37,7 +37,7 @@ This project is built using pure Html and css
 
 - [a link to the online version](https://kidd254.github.io/Module1-Capstone-Project/)
 
-- [a link to a presentation about this project]()
+- [a link to a presentation about this project](https://www.loom.com/share/d957c2e80f5749b0bd361c8178d1adc9)
 
 
 

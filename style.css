@@ -72,8 +72,8 @@ nav {
 
 .date {
   flex: none;
-  font-size: 35px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 300;
   font-family: "Lato", sans-serif;
   white-space: nowrap;
 }
@@ -158,12 +158,6 @@ nav {
 
 .footer-list {
   color: #d3d3d3;
-}
-
-.tech {
-  display: flex;
-  margin: auto 16px;
-  justify-content: space-around;
 }
 
 .partners {

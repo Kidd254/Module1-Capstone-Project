@@ -707,22 +707,39 @@ nav {
 
   .nav2 .logo {
     order: 0;
-    height: 4%;
-    width: 10%;
-    margin: 0 10%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .logo img {
-    width: 50%;
+    width: 15%;
+    padding: 2px;
+    margin: 10px 0;
     border-radius: 50%;
     object-fit: contain;
-    padding: 2px;
     box-sizing: border-box;
-    background-color: #d3d3d3;
+    background-color: #fff;
+    order: 0;
+  }
+
+  .next {
+    margin: 0;
+    padding: 20px 0;
+    width: 50%;
+    order: 1;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .nav2 .links {
-    order: 1;
+    order: 0;
+    display: flex;
+    padding-left: 15%;
+    justify-content: flex-start;
+    width: 50%;
   }
 
   .nav2 .links ul {
@@ -730,11 +747,10 @@ nav {
   }
 
   .nav2 .links ul li {
-    order: 1;
     list-style: none;
-    padding: 3% 3%;
+    padding: 3% 0;
     box-sizing: border-box;
-    margin: 3% 0;
+    margin: 3% 3%;
   }
 
   .ab {
@@ -742,6 +758,23 @@ nav {
     font-family: 'Lato-Bold', sans-serif;
     font-weight: bolder;
     color: red;
+    order: 0;
+  }
+
+  .pr {
+    order: 1;
+  }
+
+  .jo {
+    order: 2;
+  }
+
+  .sp {
+    order: 3;
+  }
+
+  .ne {
+    order: 4;
   }
 
   .list-link {
@@ -752,19 +785,20 @@ nav {
   }
 
   .nav2 .promotion {
-    order: 2;
+    height: 50%;
+    width: 40%;
+    order: 1;
+    padding-left: 5%;
+    display: flex;
   }
 
   .nav2 .promotion .campaign {
-    display: flex;
-    width: 120%;
-    padding: 3% 0%;
-    box-sizing: border-box;
     border: 3px solid red;
-    justify-content: center;
-    align-items: center;
     font-weight: bolder;
     color: red;
+    width: 60%;
+    padding: 3% 0 3% 5%;
+    order: 0;
   }
 
   .welcome {

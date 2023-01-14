@@ -124,7 +124,9 @@ If you like this project kindly offer your support in terms of contributions. If
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Vote of thanks to Microverse for giving me an opportunity and ispiring me to complete this project.
+Vote of thanks to Microverse for giving me an opportunity and ispiring me to complete this project.I would like to thank my learning partners, and my previous partner Nelson Araujo for helping me in my project.
+
+Above all i would like to also give credit to Cindy Shin in Behance for making the template that i used in this project available for free.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

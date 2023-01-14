@@ -294,17 +294,27 @@ nav {
   order: 0;
 }
 
+.beau {
+  background-color: #f82e18a2;
+  color: #fff;
+  text-align: center;
+  height: 25vh;
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .year-2021 {
   box-sizing: border-box;
   background-image: url(images/supercruise\ 2021.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 25vh;
-  width: 80%;
+  width: 100%;
   order: 0;
   margin: 20px;
-  background-color: #ec5242;
-  opacity: 0.8;
 }
 
 .year-2022 {
@@ -312,10 +322,8 @@ nav {
   background-image: url(images/supercruise\ 2022.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #ec5242;
-  opacity: 0.8;
   height: 25vh;
-  width: 80%;
+  width: 100%;
   order: 1;
   margin: 20px;
 }

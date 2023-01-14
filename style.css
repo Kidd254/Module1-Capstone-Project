@@ -396,7 +396,9 @@ nav {
     order: 1;
     color: #ec5242;
     width: 25%;
+    height: 1%;
     font-size: 10px;
+    margin-top: 5px;
   }
 
   .program ul li {
@@ -822,6 +824,7 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding: 40px 0;
     box-sizing: border-box;
   }
@@ -830,7 +833,9 @@ nav {
     order: 1;
     color: #ec5242;
     width: 100%;
+    height: 2px;
     font-size: 10px;
+    margin-top: 10px;
   }
 
   .title {

@@ -880,7 +880,7 @@ nav {
 
   .opening img {
     order: 0;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     object-fit: contain;
     padding: 5px;
@@ -919,7 +919,7 @@ nav {
 
   .first-round img {
     order: 0;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     object-fit: contain;
     padding: 5px;
@@ -940,7 +940,7 @@ nav {
 
   .break img {
     order: 0;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     object-fit: contain;
     padding: 5px;
@@ -961,7 +961,7 @@ nav {
 
   .second-round img {
     order: 0;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     object-fit: contain;
     padding: 5px;
@@ -982,7 +982,7 @@ nav {
 
   .final-session img {
     order: 0;
-    width: 50%;
+    width: 30%;
     border-radius: 50%;
     object-fit: contain;
     padding: 5px;

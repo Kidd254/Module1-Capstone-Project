@@ -303,6 +303,8 @@ nav {
   width: 80%;
   order: 0;
   margin: 20px;
+  background-color: #ec5242;
+  opacity: 0.8;
 }
 
 .year-2022 {
@@ -310,6 +312,8 @@ nav {
   background-image: url(images/supercruise\ 2022.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #ec5242;
+  opacity: 0.8;
   height: 25vh;
   width: 80%;
   order: 1;

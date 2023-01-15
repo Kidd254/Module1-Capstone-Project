@@ -810,6 +810,14 @@ nav {
     order: 0;
   }
 
+  .ab:hover {
+    color: aqua;
+  }
+
+  .home:hover {
+    background-color: aqua;
+  }
+
   .pr {
     order: 1;
   }

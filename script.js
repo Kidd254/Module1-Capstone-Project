@@ -164,3 +164,16 @@ thirdSingersArray.forEach((singer) => {
 });
 
 sectionsCard3.innerHTML = content3;
+
+const revealBtn = document.getElementById('reveal');
+const showMore = document.querySelector('.show-less');
+const showLess = document.querySelector('.show-more');
+const card2 = document.querySelector('.card-1');
+const card3 = document.querySelector('.card-2');
+
+revealBtn.addEventListener('click', () => {
+  showMore.classList.toggle('open');
+  showLess.classList.toggle('open');
+  card2.classList.toggle('open');
+  card3.classList.toggle('open');
+});

@@ -410,6 +410,7 @@ nav {
     list-style: none;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
 
   .opening {
@@ -417,8 +418,12 @@ nav {
     display: flex;
     align-items: center;
     padding: 20px 6px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
     border-radius: 2px;
     list-style: none;
+    background-color: #282a34;
+    opacity: 0.8;
   }
 
   .first-round {
@@ -427,7 +432,10 @@ nav {
     align-items: center;
     padding: 20px 6px;
     border-radius: 2px;
+    margin-bottom: 5px;
     list-style: none;
+    background-color: #282a34;
+    opacity: 0.8;
   }
 
   .break {
@@ -436,7 +444,10 @@ nav {
     align-items: center;
     padding: 20px 6px;
     border-radius: 2px;
+    margin-bottom: 5px;
     list-style: none;
+    background-color: #282a34;
+    opacity: 0.8;
   }
 
   .second-round {
@@ -444,8 +455,11 @@ nav {
     display: flex;
     align-items: center;
     padding: 20px 6px;
+    margin-bottom: 5px;
     border-radius: 2px;
     list-style: none;
+    background-color: #282a34;
+    opacity: 0.8;
   }
 
   .final-session {
@@ -455,6 +469,8 @@ nav {
     padding: 20px 6px;
     border-radius: 2px;
     list-style: none;
+    background-color: #282a34;
+    opacity: 0.8;
   }
 
   .opening img {
@@ -911,6 +927,8 @@ nav {
   .order {
     display: flex;
     order: 0;
+    gap: 3px;
+    justify-content: space-around;
   }
 
   .opening {
@@ -923,6 +941,12 @@ nav {
     padding: 20px 3px;
     box-sizing: border-box;
     min-height: 288px;
+    background-color: #282a34;
+    opacity: 0.8;
+  }
+
+  .opening:hover {
+    border: 2px solid #f7f7f7;
   }
 
   .opening img {
@@ -962,6 +986,12 @@ nav {
     padding: 20px 3px;
     box-sizing: border-box;
     min-height: 288px;
+    background-color: #282a34;
+    opacity: 0.8;
+  }
+
+  .first-round:hover {
+    border: 2px solid #f7f7f7;
   }
 
   .first-round img {
@@ -983,6 +1013,12 @@ nav {
     padding: 20px 3px;
     box-sizing: border-box;
     min-height: 288px;
+    background-color: #282a34;
+    opacity: 0.8;
+  }
+
+  .break:hover {
+    border: 2px solid #f7f7f7;
   }
 
   .break img {
@@ -1004,6 +1040,12 @@ nav {
     padding: 20px 3px;
     box-sizing: border-box;
     min-height: 288px;
+    background-color: #282a34;
+    opacity: 0.8;
+  }
+
+  .second-round:hover {
+    border: 2px solid #f7f7f7;
   }
 
   .second-round img {
@@ -1025,6 +1067,12 @@ nav {
     padding: 20px 3px;
     box-sizing: border-box;
     min-height: 288px;
+    background-color: #282a34;
+    opacity: 0.8;
+  }
+
+  .final-session:hover {
+    border: 2px solid #f7f7f7;
   }
 
   .final-session img {

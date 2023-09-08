@@ -27,9 +27,12 @@ nav {
   display: flex;
   height: 80px;
   width: 100%;
-  position: fixed;
+  position: absolute;
   z-index: 1;
   background: transparent;
+}
+
+main {
 }
 
 .section1 {
@@ -82,7 +85,7 @@ nav {
   flex: none;
   font-size: 25px;
   font-weight: 300;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   white-space: nowrap;
 }
 
@@ -387,7 +390,7 @@ nav {
   }
 
   .title {
-    font-family: "Lato-Regular", sans-serif;
+    font-family: 'Lato-Regular', sans-serif;
     color: white;
     margin-bottom: 10px;
     order: 0;
